@@ -1,0 +1,1 @@
+function show(){w.value=localStorage.weight||'';wa.value=localStorage.waist||'';out.innerText='Weight: '+w.value+' kg | Waist: '+wa.value+' in';} function saveData(){localStorage.weight=w.value;localStorage.waist=wa.value;show();} show();
